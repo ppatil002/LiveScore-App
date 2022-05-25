@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "328628126669",
+    "firebase_url": "https://zest-23-default-rtdb.firebaseio.com",
+    "project_id": "zest-23",
+    "storage_bucket": "zest-23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328628126669:android:30f6824b388cc565a23a84",
+        "android_client_info": {
+          "package_name": "com.example.zest23"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328628126669-cbbunr7rvo0hena2qj0ssl4i8euhu9sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6Ir2G9ca-a05XrOhm8ZVfGvTnmLajTBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328628126669-cbbunr7rvo0hena2qj0ssl4i8euhu9sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
