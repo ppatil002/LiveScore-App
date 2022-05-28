@@ -94,6 +94,14 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             DashboardFragment dashboardFragment=new DashboardFragment();
             transaction.replace(R.id.container, dashboardFragment).commit();
         }
+        if(position==POS_CART)
+        {
+            Toast.makeText(this, "Stay Tuned", Toast.LENGTH_SHORT).show();
+        }
+        if(position==POS_MESSAGES)
+        {
+            Toast.makeText(this, "Stay Tuned", Toast.LENGTH_SHORT).show();
+        }
     }
 
 

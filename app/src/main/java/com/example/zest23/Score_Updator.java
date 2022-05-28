@@ -38,12 +38,13 @@ public class Score_Updator extends AppCompatActivity {
         Team2_counter=findViewById(R.id.Team2_Counter);
 
         sportsname.setText(SportsName);
-        matchno.setText(MatchNo);
+        matchno.setText("Match:"+MatchNo);
         team1.setText(Team1);
         team2.setText(Team2);
 
         team1_score.setText("0");
         team2_score.setText("0");
+
 
 
         Team1_counter.setOnClickListener(new View.OnClickListener() {

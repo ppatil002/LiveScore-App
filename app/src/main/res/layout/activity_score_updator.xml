@@ -8,12 +8,12 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         app:cardCornerRadius="30dp"
-        android:backgroundTint="#A02FB3">
+        android:backgroundTint="#4E2C8A">
 
 
         <LinearLayout
@@ -109,7 +109,8 @@
                         android:paddingRight="70dp"
                         android:paddingLeft="6dp"
                         android:textSize="20dp"
-                        android:textAlignment="textStart"/>
+                        android:textAlignment="textStart"
+                        android:maxLines="1"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -118,7 +119,8 @@
                         android:textSize="20dp"
                         android:hint="TEAM 2"
                         android:paddingLeft="60dp"
-                        android:textAlignment="textEnd" />
+                        android:textAlignment="textEnd"
+                        android:maxLines="1"/>
                 </LinearLayout>
 
                 <LinearLayout

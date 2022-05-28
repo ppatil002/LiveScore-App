@@ -15,7 +15,7 @@
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
         android:paddingStart="24dp"
-        android:text="@string/account_balance"
+        android:text="Welcome to"
         android:textSize="15sp" />
 
     <LinearLayout
@@ -29,7 +29,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/balance_amount"
+            android:text="ZEST'23"
             android:textSize="34sp" />
 
     </LinearLayout>

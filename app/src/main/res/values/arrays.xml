@@ -3,8 +3,8 @@
     <array name="ld_activityScreenIcons">
         <item>@drawable/ic_home_outline_grey600_24dp</item>
         <item>@drawable/ic_account_outline_grey600_24dp</item>
-        <item>@drawable/ic_email_outline_grey600_24dp</item>
-        <item>@drawable/ic_cart_outline_grey600_24dp</item>
+        <item>@drawable/handshake</item>
+        <item>@drawable/news_icon</item>
         <item>0</item>
         <item>@drawable/ic_logout_grey600_24dp</item>
     </array>

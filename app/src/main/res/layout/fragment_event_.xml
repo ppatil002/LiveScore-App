@@ -32,12 +32,12 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="302dp"
-                android:layout_height="126dp"
+                android:layout_width="314dp"
+                android:layout_height="125dp"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginEnd="37dp"
-                android:layout_marginBottom="2dp"
+                android:layout_marginEnd="47dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/img_2" />
 
         </RelativeLayout>
@@ -166,7 +166,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="Kabbadi"
+                        android:text="Kabaddi"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
@@ -286,7 +286,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="Calendars"
+                        android:text="Fencing"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
@@ -324,7 +324,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="Date"
+                        android:text="Tennis"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
@@ -362,7 +362,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="Month"
+                        android:text="Badminton"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
                         android:textSize="18sp"

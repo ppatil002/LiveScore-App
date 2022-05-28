@@ -38,7 +38,22 @@ public class Event_Fragment extends Fragment {
                             s="Football";
                             break;
                         case 2:
-                            s="kabbadi";
+                            s="kabaddi";
+                            break;
+                        case 3:
+                            s="Kho-Kho";
+                            break;
+                        case 4:
+                            s="Volleyball";
+                            break;
+                        case 5:
+                            s="Fencing";
+                            break;
+                        case 6:
+                            s="Tennis";
+                            break;
+                        case 7:
+                            s="Badminton";
                             break;
                         default:
                             break;
