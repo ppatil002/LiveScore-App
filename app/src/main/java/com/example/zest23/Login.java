@@ -59,9 +59,18 @@ public class Login extends AppCompatActivity {
                                 final String actual_password=snapshot.child(username).child("Password").getValue(String.class);
                                 if(password.equals(actual_password))
                                 {
-                                    Toast.makeText(Login.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                                    startActivity(new Intent(Login.this,MainActivity.class));
-                                    finish();
+                                    String ADMIN="ADMIN";
+                                    if(username.equals(ADMIN))
+                                    {
+                                        Toast.makeText(Login.this, "ADMIN LOGGED IN", Toast.LENGTH_SHORT).show();
+                                        startActivity(new Intent(Login.this,Admin_Page.class));
+                                        finish();
+                                    }
+                                    else {
+                                        Toast.makeText(Login.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                                        startActivity(new Intent(Login.this, MainActivity.class));
+                                        finish();
+                                    }
                                 }
                                 else
                                 {

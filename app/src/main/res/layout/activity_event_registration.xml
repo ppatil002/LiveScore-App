@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Event_Registration"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Event generator"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/event_generator_sportsname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="40dp"
+        android:hint="Sports Name"
+        android:paddingStart="20dp"
+        android:paddingEnd="5dp"
+        android:textSize="24dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/event_generator_matchno"
+        android:hint="Match Number"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="5dp"
+        android:textSize="24dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/event_generator_team1"
+        android:hint="Team 1"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="5dp"
+        android:textSize="24dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/event_generator_team2"
+        android:hint="Team 2"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="5dp"
+        android:textSize="24dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/event_generator_submit"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textStyle="bold"
+        android:text="Generate Event" />
+
+</LinearLayout>

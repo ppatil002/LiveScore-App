@@ -89,7 +89,6 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             Event_Fragment event_fragment=new Event_Fragment();
             transaction.replace(R.id.container, event_fragment).commit();
         }
-
     }
 
 

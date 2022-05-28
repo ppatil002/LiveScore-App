@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/activity_admin_page.xml" value="0.24010416666666667" />
+        <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/activity_event_registration.xml" value="0.25416666666666665" />
         <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/activity_login.xml" value="0.152" />
         <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/activity_register.xml" value="0.2" />
-        <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/card_live_score.xml" value="0.4" />
+        <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/activity_score_updator.xml" value="0.25416666666666665" />
+        <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/card_live_score.xml" value="0.264" />
+        <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/cards.xml" value="0.25416666666666665" />
         <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/content_login.xml" value="0.25052083333333336" />
         <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/fragment_event_.xml" value="0.25416666666666665" />
         <entry key="..\:/Programing/APP Development/ZEST-23_TASK/app/src/main/res/layout/fragment_first.xml" value="0.25052083333333336" />
