@@ -18,6 +18,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
 import com.yarolegovich.slidingrootnav.SlidingRootNav;
 import com.yarolegovich.slidingrootnav.SlidingRootNavBuilder;
 
@@ -88,6 +89,10 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
         if(position==POS_ACCOUNT){
             Event_Fragment event_fragment=new Event_Fragment();
             transaction.replace(R.id.container, event_fragment).commit();
+        }
+        if(position==POS_DASHBOARD){
+            DashboardFragment dashboardFragment=new DashboardFragment();
+            transaction.replace(R.id.container, dashboardFragment).commit();
         }
     }
 
