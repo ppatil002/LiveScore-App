@@ -85,10 +85,10 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
 
         FragmentTransaction transaction=getSupportFragmentManager().beginTransaction();
 
-//        if(position==POS_ACCOUNT){
-//            Evnet_fragment evnet_fragment=new Evnet_fragment();
-//            transaction.replace(R.id.container, evnet_fragment).commit();
-//        }
+        if(position==POS_ACCOUNT){
+            Event_Fragment event_fragment=new Event_Fragment();
+            transaction.replace(R.id.container, event_fragment).commit();
+        }
 
     }
 
