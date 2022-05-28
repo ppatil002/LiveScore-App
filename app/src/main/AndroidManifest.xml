@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Zest23">
         <activity
+            android:name=".Check_LiveScore"
+            android:exported="false" />
+        <activity
             android:name=".Score_Updator"
             android:exported="false" />
         <activity

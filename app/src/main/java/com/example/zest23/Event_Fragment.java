@@ -43,9 +43,9 @@ public class Event_Fragment extends Fragment {
                         default:
                             break;
                     }
-//                    Intent intent=new Intent(getContext(),ActivityOne.class);
-//                    intent.putExtra("Event_Name",s);
-//                    startActivity(intent);
+                    Intent intent=new Intent(getContext(),Check_LiveScore.class);
+                    intent.putExtra("Event_Name",s);
+                    startActivity(intent);
                 }
             });
         }
